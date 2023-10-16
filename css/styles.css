@@ -41,7 +41,7 @@ header {
 .logo i{
   height: 25px;
   width: 25px;
-  background-color: #ed4f00;
+  background-color: #ee900c;
   border-radius: 10%;
   color: rgb(18, 17, 17);
   font-weight: 700;
@@ -57,7 +57,7 @@ header {
 .logo .logo-text{
   font-size: 24px;
   font-weight: 500;
-  color: #fff;
+  color: #333;
 }
 
 nav .navlinks {
@@ -112,12 +112,12 @@ nav .navlinks li a:hover{
 }
 
 .top-text h5{
-  color: #060606;
+  color: #ee900c;
   font-size: 14px;
 }
 
 .top-text h1{
-  color: #ed4f00;
+  color: #333;
   font-size: 3rem;
 }
 
@@ -140,3 +140,14 @@ nav .navlinks li a:hover{
   border: 2px solid white;
 }
 
+.top-text .social i{
+  color: #333;
+  font-size: 18px;
+  margin-right: 10px;
+  transition: 0.5s;
+}
+
+.top-text .social i:hover{
+  color:#ee900c;
+  transform: rotate(360deg);
+}
