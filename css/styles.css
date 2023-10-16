@@ -14,7 +14,7 @@ body {
   width: 100x;
   height: 100%;
   min-height: 100vh;
-  background: #0f0e0e;
+  background: #857c7c;
 }
 
 .wrapper {
@@ -64,7 +64,11 @@ nav .navlinks {
   list-style-type: none;
 }
 
-nav .navlinks li {
+nav .navlinks li{
+  display: inline-block;
+}
+
+nav .navlinks li a{
   text-decoration: none;
   margin-right: 2.5rem;
   color: #333;
@@ -73,6 +77,13 @@ nav .navlinks li {
 
 nav .navlinks li a:hover{
   color: #ee900c;
+}
+
+.container {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding-top: 4rem;
 }
 
 .container .top-pic{
@@ -92,5 +103,40 @@ nav .navlinks li a:hover{
 
 .top-pic img:hover{
   transform: scale(1.2);
+}
+
+.top-text {
+  max-width: 400px;
+  display: flex;
+  flex-direction: column;
+}
+
+.top-text h5{
+  color: #060606;
+  font-size: 14px;
+}
+
+.top-text h1{
+  color: #ed4f00;
+  font-size: 3rem;
+}
+
+.top-text p{
+  color: rgb(8, 8, 8);
+}
+
+.btn-group{
+  margin: 45px 0;
+}
+
+.btn-group .btn{
+  border-color: #d5d5d5;
+  color: #fff;
+  background-color: #333;
+  margin: 10px 0;
+  margin-right: 8px;
+  padding: 12px 25px;
+  border-radius: 30px;
+  border: 2px solid white;
 }
 
