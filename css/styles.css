@@ -59,3 +59,19 @@ header {
   font-weight: 500;
   color: #fff;
 }
+
+nav .navlinks {
+  list-style-type: none;
+}
+
+nav .navlinks li {
+  text-decoration: none;
+  margin-right: 2.5rem;
+  color: #333;
+  transition: color 0.3s
+}
+
+nav .navlinks li a:hover{
+  color: #ee900c;
+}
+
